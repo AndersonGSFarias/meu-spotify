@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Circular-Light';
-    src: url(assets/font/CircularStd-Light.otf) format(opentype);
+    src: url(../../../assets/font/CircularStd-Light.otf) format(opentype);
     font-weight: lighter;
     font-style: normal;
 
 }
 @font-face {
   font-family: 'Circular-Normal';
-  src: url(assets/font/CircularStd-Book.otf) format(opentype);
+  src: url(../../../assets/font/CircularStd-Book.otf) format(opentype);
   font-weight: normal;
   font-style: normal;
 }
