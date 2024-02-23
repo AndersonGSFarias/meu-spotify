@@ -1,0 +1,243 @@
+/* Corpo */
+
+.body-container {
+  height: 100vh;
+}
+
+/* Barra lateral */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 80%;
+  background-color: #000;
+}
+
+.sidebar .nav-sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: rgb(18, 18, 18);
+  padding: 20px 24px 0px 24px;
+  border-radius: 8px;
+}
+
+/* Logo Spotify */
+
+.sidebar .nav-sidebar .logo-spotify img {
+  width: 89px;
+  cursor: pointer;
+}
+
+/* Icones */
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li {
+  display: flex;
+  padding: 18px 0px;
+  align-items: center;
+}
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li a {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li a i {
+  font-size: 20px;
+  color: rgb(179, 179, 179);
+}
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li a .fa {
+  font-size: 24px;
+}
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li a .sidebar-text {
+  font-weight: 700;
+}
+
+.sidebar .nav-sidebar .icon-sidebar-container ul li a :hover {
+  color: #fff;
+  transition: color 0.5s;
+}
+
+/* Biblioteca */
+
+.library {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 18, 18);
+  margin: 0px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.library .library-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.library .library-content .library-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.library .library-content .library-btn .fa-solid {
+  font-size: 20px;
+  padding-right: 18px;
+  color: rgb(179, 179, 179);
+}
+
+.library .library-content .library-btn .library-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(179, 179, 179);
+}
+
+.library .library-content .library-btn .library-text:hover,
+.library .library-content .library-btn .fa-solid:hover {
+  color: #fff;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.library .library-content .fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  color: #6b6b6b;
+  font-size: 20px;
+}
+
+.library .library-content .fa:hover {
+  color: rgb(179, 179, 179);
+  background-color: rgb(25, 25, 25);
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+/* Nova Playlist  */
+
+.section_playlist_podcast {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #242424;
+  border-radius: 6px;
+  margin: 8px 8px;
+  padding: 16px 20px;
+}
+
+.section_playlist_podcast .new-playlist {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section_playlist_podcast .new-playlist .title-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding: 0px 0px 10px 0px;
+}
+
+.section_playlist_podcast .new-playlist .subtitle-text {
+  font-size: 18px;
+  color: #fff;
+  padding: 0px 0px 10px 0px;
+}
+
+.section_playlist_podcast .new-playlist .section-playlist-podcast-btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  padding: 10px;
+  margin-top: 12px;
+  border: 0px;
+  width: 120px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.section_playlist_podcast .new-playlist .section-playlist-podcast-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.section_playlist_podcast .new-playlist #btn-podcast {
+  width: 150px;
+}
+
+.section_playlist_podcast .new-playlist .section-playlist-podcast-btn span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Termos e condicoes */
+
+.terms-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(18, 18, 18);
+  margin: 8px 8px;
+  padding: 16px 20px;
+  color: rgb(179, 179, 179);
+}
+
+.terms-section div {
+  padding: 8px 8px;
+}
+
+.terms-section div span {
+  font-family: "Circular-Light";
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.terms-section div span:hover{
+  text-decoration: underline;
+}
+
+.languages {
+  padding: 0px 28px 32px 28px;
+}
+
+.languages .languages-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  padding: 8px 5px;
+  gap: 5px;
+  background-color: rgb(18, 18, 18);
+  border: #6b6b6b 1px solid;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.languages .languages-btn:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+
+.languages .languages-btn .fa-solid {
+  font-size: 20px;
+  color: #fff;
+}
+.languages .languages-btn .languages-ptbr {
+  font-size: 16px;
+  color: #fff;
+}
