@@ -1,0 +1,10 @@
+{
+  "name": "Meu-Spotify",
+  "version": "1",
+  "description": "Spotify",
+  "main": "index.js",
+  "repository": "https://andersongfarias@bitbucket.org/projetos-anderson/project-front.git",
+  "author": "Anderson Gabriel <anderson.gfarias05@gmail.com>",
+  "license": "MIT",
+  "private": null
+}
