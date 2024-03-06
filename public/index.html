@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Alura 2</title>
-    <link rel="stylesheet" href="/src/app/styles/reset.css" />
-    <link rel="stylesheet" href="/src/app/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
     <link rel="icon" href="/assets/icons/favicon.png" />
     <script
       src="https://kit.fontawesome.com/ac557fef66.js"
@@ -69,25 +69,47 @@
             </div>
           </section>
           <!-- Termos de serviço e segurança da plataforma -->
-          <div class="terms-section">
-            <div><span>Legal</span></div>
-            <div><span>Segurança e Centro de privacidade</span></div>
-            <div><span>Politíca de privacidade</span></div>
-            <div><span>Cookies</span></div>
-            <div><span>Sobre anúncios</span></div>
-            <div><span>Acessibilidade</span></div>
-            <div><span>Notice at Collection</span></div>
-            <div><span>Your Privacy Choices</span></div>
-          </div>
+        </div>
+        <div class="terms-section">
+          <div><span>Legal</span></div>
+          <div><span>Segurança e Centro de privacidade</span></div>
+          <div><span>Politíca de privacidade</span></div>
+          <div><span>Cookies</span></div>
+          <div><span>Sobre anúncios</span></div>
+          <div><span>Acessibilidade</span></div>
+          <div><span>Notice at Collection</span></div>
+          <div><span>Your Privacy Choices</span></div>
           <!-- Seleção de idioma do site (Não funcional) -->
           <div class="languages">
             <button class="languages-btn">
-              <span class="fa-solid fa-globe"></span>
+              <i class="fa-solid fa-globe"></i>
               <span class="languages-ptbr">Português do Brasil</span>
             </button>
           </div>
         </div>
       </div>
+      <div class="principal-container">
+
+      </div>
+      <!-- Navegação do seletor de música -->
+      <div class="principal-content-container">
+        <nav class="nav-section">
+          <div class="nav-btn-container-left">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="nav-btn-container-right">
+            <button class="signin-btn">
+              <span>Inscrever-se</span>
+            </button>
+            <button class="login-btn">
+              <span>Entrar</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <!-- Corpo do seletor de música -->
+      <section class="musics-section"></section>
     </div>
   </body>
 </html>
