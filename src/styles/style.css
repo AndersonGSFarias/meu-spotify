@@ -11,7 +11,7 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 410px;
+  width: 540px;
   background-color: rgb(0, 0, 0);
 }
 
@@ -20,15 +20,16 @@
   flex-direction: column;
   margin: 10px;
   background-color: rgb(18, 18, 18);
-  padding: 20px 24px 0px 24px;
+  padding: 20px 24px 0px 0px;
   border-radius: 8px;
 }
 
 /* Logo Spotify */
 
 .sidebar .nav-sidebar .logo-spotify img {
-  width: 30%;
+  width: 20%;
   cursor: pointer;
+  padding-left: 21px;
 }
 
 /* Icones */
@@ -42,6 +43,7 @@
 .sidebar .nav-sidebar .icon-sidebar-container ul li a {
   display: flex;
   gap: 20px;
+  padding-left: 24px;
   text-decoration: none;
 }
 
@@ -331,5 +333,98 @@
 .principal-container .musics-section {
   height: 100%;
   margin-right: 10px;
+  margin-bottom: 8px;
   background-image: linear-gradient(180deg, rgb(30, 30, 30), rgb(10, 10, 10));
+  overflow: auto;
+}
+
+.principal-container .musics-section .list-musics-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 28px;
+}
+
+.principal-container
+  .musics-section
+  .list-musics-text
+  .list-musics-text-left
+  .text-left {
+  font-size: 23px;
+  color: #fff;
+  font-weight: 700;
+}
+.principal-container .musics-section .list-musics-text .list-musics-text-right {
+  padding-top: 10px;
+}
+
+.principal-container
+  .musics-section
+  .list-musics-text
+  .list-musics-text-right
+  .text-right {
+  color: rgb(179, 179, 179);
+}
+
+.principal-container
+  .musics-section
+  .list-musics-text
+  .list-musics-text-left
+  a:hover {
+  cursor: pointer;
+  text-decoration: underline #fff 1px;
+}
+
+.principal-container
+  .musics-section
+  .list-musics-text
+  .list-musics-text-right
+  a:hover {
+  cursor: pointer;
+  text-decoration: underline rgb(179, 179, 179) 1px;
+}
+
+/* Opções de músicas para seleção */
+
+.musics-container {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 0px 24px;
+  overflow: auto;
+}
+
+.musics-section .music-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  margin: 15px 20px;
+  height: 260px;
+  width: 200px;
+  border-radius: 5%;
+}
+
+.musics-section .music-play .music-img {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px 0px;
+  height: 70%;
+  width: 85%;
+  background-color: aqua;
+  border-radius: 5%;
+}
+
+.musics-section .music-play .music-img img {
+  border-radius: 3%;
+}
+
+.musics-section .music-play .music-title {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.musics-section .music-play .music-subtitle {
+  font-weight: 700;
+  color: rgb(134, 134, 134);
 }
