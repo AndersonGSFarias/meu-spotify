@@ -295,6 +295,13 @@
   height: 30px;
 }
 
+.principal-content-container
+  .nav-section
+  .nav-btn-container-left
+  .fa-solid:hover {
+  cursor: pointer;
+}
+
 .principal-content-container .nav-section .nav-btn-container-right {
   display: flex;
   justify-content: space-evenly;
@@ -309,6 +316,12 @@
   font-weight: bold;
   font-size: 17px;
   word-spacing: 2px;
+}
+
+.principal-content-container .nav-btn-container-right .signin-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: #fff;
 }
 
 .principal-content-container .nav-btn-container-right .login-btn {
@@ -387,7 +400,6 @@
 
 .musics-container {
   display: flex;
-
   flex-wrap: wrap;
   margin: 0px 24px;
   overflow: auto;
@@ -397,29 +409,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(20, 20, 20);
-  margin: 15px 20px;
+  background-color: rgb(22, 22, 22);
+  margin: 15px 15px;
   height: 260px;
   width: 200px;
   border-radius: 5%;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.musics-section .music-play:hover {
+  cursor: pointer;
+  background-color: #282828;
+  transition: background-color 0.5s ease;
 }
 
 .musics-section .music-play .music-img {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0px 0px 0px;
-  height: 70%;
-  width: 85%;
-  background-color: aqua;
+  position: relative;
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  height: 160px;
+  width: 80%;
   border-radius: 5%;
 }
 
 .musics-section .music-play .music-img img {
+  width: 100%;
   border-radius: 3%;
+}
+.musics-section .music-play .music-text-container {
+  width: 100%;
+  padding: 0px 0px 0px 15px;
+  margin: 0px 0px 0px 25px;
 }
 
 .musics-section .music-play .music-title {
-  margin-top: 10px;
   font-weight: 700;
   color: #fff;
 }
