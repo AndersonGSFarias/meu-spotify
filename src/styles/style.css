@@ -76,6 +76,7 @@
   border-top: 8px;
   height: 100%;
   overflow: auto;
+  border-radius: 8px;
 }
 
 .library .library-content {
@@ -308,10 +309,10 @@
 
 .principal-content-container .nav-section .nav-btn-container-right {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
-  width: 16%;
+  width: 20%;
 }
 
 .principal-content-container .nav-btn-container-right .signin-btn {
@@ -319,7 +320,7 @@
   color: rgb(179, 179, 179);
   font-weight: bold;
   font-size: 17px;
-  word-spacing: 2px;
+  word-spacing: 2px; 
 }
 
 .principal-content-container .nav-btn-container-right .signin-btn:hover {
@@ -333,7 +334,7 @@
   justify-content: center;
   align-items: center;
   width: 110px;
-  height: 50px;
+  height: 45px;
   border-radius: 9999px;
   font-size: 17px;
   font-weight: bold;
